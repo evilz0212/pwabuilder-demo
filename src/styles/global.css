@@ -14,6 +14,9 @@ body {
   background-color: #141414;
 }
 
+#lodaing {
+  display: none;
+}
 /* @media (prefers-color-scheme: dark) {
   html,
   body {
