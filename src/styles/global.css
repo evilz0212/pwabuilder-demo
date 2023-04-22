@@ -15,7 +15,7 @@ body {
 }
 
 #lodaing {
-  display: none;
+  /* display: none; */
 }
 /* @media (prefers-color-scheme: dark) {
   html,
