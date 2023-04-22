@@ -14,6 +14,7 @@ export class AppIndex extends LitElement {
         padding-left: 16px;
         padding-right: 16px;
         padding-bottom: 16px;
+        background-color: #141414;
       }
     `;
   }
@@ -24,12 +25,11 @@ export class AppIndex extends LitElement {
 
   firstUpdated() {
     router.addEventListener('route-changed', () => {
-      if ("startViewTransition" in document) {
+      if ('startViewTransition' in document) {
         return (document as any).startViewTransition(() => {
           this.requestUpdate();
         });
-      }
-      else {
+      } else {
         this.requestUpdate();
       }
     });
@@ -40,3 +40,4 @@ export class AppIndex extends LitElement {
     return router.render();
   }
 }
+
