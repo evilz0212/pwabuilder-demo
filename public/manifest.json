@@ -6,6 +6,7 @@
   "start_url": "/",
   "short_name": "starter",
   "theme_color": "#ffffff",
+  "msapplication_tileColor": "#ffffff",
   "description": "This is a PWA Starter app",
   "orientation": "any",
   "background_color": "#ffffff",
